@@ -3,6 +3,7 @@
   "songName": "Bopeebo (Pico Mix)",
   "artist": "ThatAndyGuy (feat. Saruky)",
   "charter": "Fabs + Spazkid",
+  "tableID": 947500,
   "playData": {
     "difficulties": ["easy", "normal", "hard"],
     "characters": {

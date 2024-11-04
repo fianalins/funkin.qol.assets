@@ -3,6 +3,7 @@
   "songName": "Blazin'",
   "artist": "Kawai Sprite",
   "charter": "fabs + PhantomArcade",
+  "tableID": 947058,
   "playData": {
     "difficulties": ["easy", "normal", "hard"],
     "characters": {

@@ -3,6 +3,7 @@
   "songName": "Pico (Pico Mix)",
   "artist": "Metaroom (ft. Saster)",
   "charter": "Fabs",
+  "tableID": 947599,
   "playData": {
     "difficulties": ["easy", "normal", "hard"],
     "characters": {
@@ -28,12 +29,7 @@
       "bpm": 150,
       "n": 4,
       "d": 4,
-      "bt": [
-        4,
-        4,
-        4,
-        4
-      ]
+      "bt": [4, 4, 4, 4]
     }
   ]
 }

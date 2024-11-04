@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "name": "PICO",
+  "tableID": 947620,
   "titleAsset": "storymenu/titles/week3",
   "props": [
     {

@@ -3,6 +3,7 @@
   "songName": "Monster",
   "artist": "BassetFilms",
   "charter": "ChaoticGamerCG + Spazkid",
+  "tableID": 946916,
   "playData": {
     "difficulties": ["easy", "normal", "hard"],
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "monster" },

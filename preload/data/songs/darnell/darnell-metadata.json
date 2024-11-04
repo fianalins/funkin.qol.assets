@@ -3,6 +3,7 @@
   "songName": "Darnell",
   "artist": "Kawai Sprite",
   "charter": "fabs",
+  "tableID": 947049,
   "playData": {
     "songVariations": ["bf"],
     "difficulties": ["easy", "normal", "hard"],

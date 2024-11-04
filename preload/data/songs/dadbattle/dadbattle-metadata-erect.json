@@ -3,6 +3,7 @@
   "songName": "DadBattle Erect",
   "charter": "Jenny Crowe + fabs + Spazkid",
   "artist": "Kawai Sprite",
+  "tableID": 947473,
   "offsets": { "vocals": { "bf": 0, "dad": -8 } },
   "playData": {
     "difficulties": ["erect", "nightmare"],
