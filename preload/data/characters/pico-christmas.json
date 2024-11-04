@@ -6,6 +6,7 @@
     "id": "pico",
     "flipX": false
   },
+  "color": "#B7D855",
   "death": {
     "cameraOffsets": [10, -40],
     "cameraZoom": 1.0
@@ -43,28 +44,28 @@
       "prefix": "Pico NOTE LEFT miss xmas0",
       "looped": false,
       "offsets": [68, 20],
- 	"frameIndices": [ 1, 2, 3, 4]
+      "frameIndices": [1, 2, 3, 4]
     },
     {
       "name": "singDOWNmiss",
       "prefix": "Pico Down Note MISS xmas0",
       "looped": false,
       "offsets": [80, -40],
- 	"frameIndices": [ 1, 2, 3, 4]
+      "frameIndices": [1, 2, 3, 4]
     },
     {
       "name": "singUPmiss",
       "prefix": "pico Up note miss xmas0",
       "looped": false,
       "offsets": [29, 60],
- 	"frameIndices": [ 1, 2, 3, 4]
+      "frameIndices": [1, 2, 3, 4]
     },
     {
       "name": "singRIGHTmiss",
       "prefix": "Pico Note Right Miss xmas0",
       "looped": false,
       "offsets": [-55, 45],
- 	"frameIndices": [ 1, 2, 3, 4]
+      "frameIndices": [1, 2, 3, 4]
     },
     {
       "name": "firstDeath",

@@ -78,7 +78,8 @@ class BlazinSong extends Song {
 		var playerStrumline:FlxSprite = PlayState.instance.playerStrumline;
 		if (playerStrumline != null)
 		{
-			playerStrumline.x = FlxG.width / 2 - playerStrumline.width / 2;
+			playerStrumline.x = (FlxG.width / 2 - playerStrumline.width / 2) + 5.5;
+			// Changed because My Way is perfectly aligned
 		}
 	}
 

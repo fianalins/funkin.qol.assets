@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "name": "Pico",
   "assetPath": "characters/Pico_Basic",
+  "color": "#B7D855",
   "flipX": true,
   "animations": [
     {

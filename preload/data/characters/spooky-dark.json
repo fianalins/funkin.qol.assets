@@ -8,6 +8,7 @@
     "id": "spooky",
     "flipX": false
   },
+  "color": "#C6995B",
   "startingAnimation": "danceRight",
   "animations": [
     {
