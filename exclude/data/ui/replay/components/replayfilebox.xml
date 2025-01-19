@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="100%" height="55" tooltip="File Name" styleName="replayFileBox">
+  <label id="replayBoxName" width="100%" text="Example Replay [Difficulty]" fontSize="16" paddingLeft="5" paddingTop="10" verticalAlign="middle" />
+  <label id="replayBoxDate" width="100%" text="Date is Date" fontSize="12" paddingLeft="5" verticalAlign="middle" />
+</vbox>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grid width="100%" height="100%" columns="2">
+  <vbox width="100%" height="100%" horizontalAlign="center">
+    <hbox width="450" horizontalAlign="center">
+      <textfield id="replaySearchBar" width="300" tooltip="Search by Song Name" />
+      <dropdown id="replaySortDropdown" width="150" horizontalAlign="right" tooltip="Sort Replays">
+        <data>
+          <item text="Name (A-Z)" id="nameAZ" />
+          <item text="Name (Z-A)" id="nameZA" />
+          <item text="Date (Newest)" id="dateNewest" />
+          <item text="Date (Oldest)" id="dateOldest" />
+        </data>
+      </dropdown>
+    </hbox>
+    <label width="450" text="Replays" horizontalAlign="center" />
+    <scrollview width="450" height="100%" contentWidth="100%" horizontalAlign="center">
+      <vbox id="replayListBox" width="100%" />
+    </scrollview>
+  </vbox>
+  <vbox width="100%" height="100%" horizontalAlign="center">
+    <label width="450" text="Replay Information" horizontalAlign="center" />
+    <scrollview width="450" height="100%" contentWidth="100%" horizontalAlign="center">
+      <label id="replayInfoSong" text="Song Name: No replay selected" horizontalAlign="left" />
+      <label id="replayInfoDifficulty" text="Song Difficulty: No replay selected" horizontalAlign="left" />
+      <label id="replayInfoVariation" text="Song Variation: N/A" horizontalAlign="left" />
+      <label id="replayInfoDate" text="Save Date: 1970-01-01 00:00:00" horizontalAlign="left" />
+      <spacer />
+      <spacer />
+      <label id="replayLabelData" text="Song Results:" horizontalAlign="left" />
+      <spacer />
+      <label id="replayInfoScore" text="Score: 0" horizontalAlign="left" />
+      <label id="replayInfoAccuracy" text="Accuracy: 0%" horizontalAlign="left" />
+      <label id="replayInfoRank" text="Rank: Fail" horizontalAlign="left" />
+      <label id="replayInfoSick" text="Sicks: 0" horizontalAlign="left" />
+      <label id="replayInfoGood" text="Goods: 0" horizontalAlign="left" />
+      <label id="replayInfoBad" text="Bads: 0" horizontalAlign="left" />
+      <label id="replayInfoShit" text="Shits: 0" horizontalAlign="left" />
+      <label id="replayInfoMissed" text="Misses: 0" horizontalAlign="left" />
+      <label id="replayInfoCombo" text="Combo: 0" horizontalAlign="left" />
+      <label id="replayInfoMaxCombo" text="Max Combo: 0" horizontalAlign="left" />
+      <label id="replayInfoTotalNotesHit" text="Total Notes Hit: 0" horizontalAlign="left" />
+    </scrollview>
+    <hbox width="450" horizontalAlign="center">
+      <spacer width="100%" />
+      <button text="Play Replay" id="replayButtonStart" />
+      <button text="Delete Replay" id="replayButtonDelete" />
+    </hbox>
+  </vbox>
+</grid>

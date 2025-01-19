@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialog width="500" height="600" title="Help">
+	<tabview width="100%" height="100%">
+		<box width="100%" text="Hotkeys">
+			<tableview width="100%" height="510" contentWidth="100%">
+				<header width="100%">
+					<column id="action" text="Action" width="50%" />
+					<column id="keybind" text="Keybind" width="50%" />
+				</header>
+				<data>
+					<item action="Show User Guide" keybind="F1" />
+					<item action="Delete Selected Replay" keybind="Delete" />
+					<item action="Reload Replays List" keybind="Ctrl + R" />
+					<!-- item action="Open Preferences" keybind="Ctrl + Comma" /-->
+					<item action="Quit to Menu" keybind="Ctrl + Q" />
+				</data>
+			</tableview>
+		</box>
+		<box width="100%" text="More Details">
+			<vbox width="100%" height="510">
+				<label text="There is no guarantee that the Replay will be 100% accurate" horizontalAlign="center" />
+				<label text="to real performance from the player." horizontalAlign="center" />
+				<spacer />
+				<label text="Accurate information can be found in the metadata," horizontalAlign="center" />
+				<label text="or shown in the Manager and Results Screen." horizontalAlign="center" />
+			</vbox>
+		</box>
+	</tabview>
+</dialog>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="100%" height="100%" style="background-color: $solid-background-color">
+	<import source="components/menubar.xml" />
+	<import source="components/replaylist.xml" />
+	<import source="components/style.xml" />
+</vbox>

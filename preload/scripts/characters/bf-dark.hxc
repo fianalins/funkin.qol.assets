@@ -44,5 +44,4 @@ class BoyfriendDarkCharacter extends MultiSparrowCharacter {
 		PlayState.instance.currentStage.add(normalChar);
 		PlayState.instance.currentStage.refresh(); // Apply z-index.
 	}
-
 }

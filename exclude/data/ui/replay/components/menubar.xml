@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menubar id="menubar" width="100%" paddingLeft="172">
+  <style>
+    .menu {
+    // The width of the individual menu items
+    width: 160px;
+    }
+  </style>
+  <menu text="File">
+    <menu-item id="menubarItemReplayFolder" text="Open Replays Folder" />
+    <menu-item id="menubarItemReloadReplays" text="Reload Replays List" shortcutText="Ctrl+R" />
+    <menu-separator />
+    <menu-item id="menubarItemPreferences" text="Preferences" shortcutText="Ctrl+Comma" disabled="true" />
+    <menu-checkbox id="menubarItemSaveReplays" text="Save Replays" />
+    <menu-separator />
+    <menu-item id="menubarItemQuit" text="Quit" shortcutText="Ctrl+Q" />
+  </menu>
+  <menu text="Edit">
+    <menu-item id="menubarItemDelete" text="Delete" shortcutText="Delete" />
+  </menu>
+  <menu text="Help">
+    <menu-item id="menubarItemUserGuide" text="User Guide" shortcutText="F1" />
+    <menu-item id="menubarItemAbout" text="About..." />
+  </menu>
+  <spacer width="100%" />
+  <label text="PROTOTYPE Functionality is subject to change." verticalAlign="center" />
+</menubar>

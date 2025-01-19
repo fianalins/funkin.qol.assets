@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="deleteDialog" title="Delete Replay?" width="400" height="140">
+  <vbox width="100%" height="100%">
+    <label text="Are you sure you want to delete this replay?" verticalAlign="center" horizontalAlign="center" />
+    <label text="This action is IRREVERSIBLE and CANNOT BE UNDONE!" verticalAlign="center" horizontalAlign="center" />
+    <spacer height="100%" />
+    <hbox width="100%">
+      <button text="No" id="deleteNo" />
+      <spacer width="100%" />
+      <button text="Yes" id="deleteYes" />
+    </hbox>
+  </vbox>
+</dialog>

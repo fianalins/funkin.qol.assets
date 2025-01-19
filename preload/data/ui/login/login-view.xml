@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="loginDialog" title="Log In" width="720" height="500" draggable="false">
+  <vbox width="100%" height="100%">
+    <form id="loginForm" width="100%" height="100%">
+      <vbox width="100%" height="100%">
+        <label text="Username:" verticalAlign="center" horizontalAlign="left" />
+        <textfield id="usernameInput" placeholder="Username" width="100%" validator="required" />
+        <label text="Token:" verticalAlign="center" horizontalAlign="left" />
+        <textfield id="tokenInput" placeholder="Token" width="100%" validator="required" />
+      </vbox>
+    </form>
+    <hbox width="100%">
+      <button text="Cancel" id="loginCancel" />
+      <spacer width="5px" />
+      <button text="Sign Out" id="loginOpposite" />
+      <spacer width="100%" />
+      <label id="loginText" text="" verticalAlign="center" horizontalAlign="right" />
+      <button text="Log In" id="loginYes" horizontalAlign="right" />
+    </hbox>
+  </vbox>
+</dialog>
